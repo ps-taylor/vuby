@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Voxzal</title>
+  <title>voxzal</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -12,15 +12,7 @@
 
 <div id="header" style="background-image:url(/images/header.jpg)">
                 <img src="/images/navbar_Interfaces.gif" name="navbar" border="0" usemap="#navbarMap" id="navbar" alt="NavBar" />
-                <map name="navbarMap" id="navbarMap">
-                    <area shape="rect" coords="2,2,116,25" href="http://voxzal.voxtelecom.co.za/voxzal" alt="CRM" target="frmContent" />
-                    <area shape="rect" coords="117,2,230,26" target="_blank" href="http://trax.voxtelecom.co.za/" alt="TRAX" />
-                    <area shape="rect" coords="231,3,345,25" href="http://196.3.169.131:8082/Forms/Login.aspx" alt="Support" />
-                    <area shape="rect" coords="345,3,457,25" href="http://196.3.169.131:8001/" alt="Telepreneur" />
-                    <area shape="rect" coords="460,4,574,25" target="_blank" href="http://cmdb.voxtelecom.co.za:8080" alt="Easy CMD" />
-                    <area shape="rect" coords="575,2,690,25" href="http://rating.voxzal.voxtelecom.co.za:8080/rating/" alt="Voice" />
-                    <area shape="rect" coords="690,1,804,26" href="http://commissions.voxzal.co.za/Pages/Login.aspx" alt="Financial" />
-                </map>
+
             </div>
 
 <%= yield %>
